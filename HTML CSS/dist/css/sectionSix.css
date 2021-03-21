@@ -1,0 +1,72 @@
+/* Section 6 */
+.section-six {
+  width: 100vw;
+  height: 75vh;
+}
+.section-six-main {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+  top: -28em;
+  background: white;
+  left: 20%;
+  padding: 1.7em;
+}
+.section-six-background {
+  width: 100%;
+  height: 75%;
+  background: linear-gradient(to right, rgba(255, 0, 43, 0.575), rgba(0, 4, 255, 0.575));
+  position: relative;
+  z-index: -3;
+}
+.section-six-contact {
+  width: 50%;
+  height: 100%;
+  color: black;
+}
+.section-six-contact h1 {
+  font-size: 4.7em;
+}
+.section-six-social {
+  width: 40%;
+  height: 10%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-top: 3em;
+}
+.section-six-social i {
+  font-size: 2.2em;
+}
+.section-six-contact span {
+  width: 25em;
+  height: 10px;
+  background: black;
+  display: block;
+  margin-top: 2em;
+}
+.section-six-contact h2 {
+  width: 50%;
+  height: 10%;
+  color: black;
+  padding-top: 3em;
+  font-size: 2em;
+}
+.section-six-image {
+  width: 50%;
+  height: 70%;
+}
+.section-six-image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+.section-six-image p{
+font-size: 1.2em;
+line-height: 1.8em;
+}
+/* Section 6 end */
